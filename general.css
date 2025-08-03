@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding-top: 140px;
+    padding-left: 96px;
+    padding-right: 24px;
+    padding-bottom: 40px;
+}
+.viewbox {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.navbar img,
+.sidebar .sidecon img,
+.viewbox img,
+.suggs button,
+.pp,
+.channellogoedit {
+  cursor: pointer;
+}
+
+.sidecon {
+  cursor: pointer;
+}
+
+.sugmain,
+.sugnrml {
+  cursor: pointer;
+}
+
+.createb,
+.notib,
+.micb,
+.sicon {
+  cursor: pointer;
+}

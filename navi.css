@@ -1,0 +1,250 @@
+.navbar{
+    height: 60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right:0px;
+    z-index: 100;
+}
+.ld{
+    display: flex;
+    align-items: center;
+}
+.md{
+    flex:1;
+    margin-left: 250px;
+    margin-right: 190px;
+    max-width: 675px;
+    display: flex;
+    align-items: center;
+
+}
+.rd{
+    width: 225px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ham{
+    height: 40px;
+    width: 40px;
+    margin-left: 18px;
+    border-radius: 100px;
+    border-width: 0px;
+    background-color: white;
+}
+.hamimg{
+    height: 24px;
+    width: 24px;
+}
+.ham:hover{
+    background-color: rgb(220, 220, 220);
+
+}
+.ham:active{
+    background-color: rgb(200, 200, 200);
+}
+.logo{
+    height: 21px;
+    margin-left: 17px;
+}
+.sicon{
+    height: 40px;
+    width: 65px;
+    border-top-right-radius:200px ;
+    border-bottom-right-radius:200px ;
+    margin-right: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(202, 200, 200);
+    margin-left: -1px;
+    background-color: rgb(249, 249, 249);
+
+}
+.sicon:hover{
+    background-color: rgb(242, 242, 242);
+
+}
+.micb{
+    height: 40px;
+    width:40px;
+    border-radius: 100px;
+    border: 0;
+    background-color: rgb(242, 242, 241);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.micb:hover{
+    background-color: rgb(220, 220, 220);
+
+}
+.micb:hover div{
+    opacity:0.9 ;
+}
+.micb:active{
+    background-color: rgb(200, 200, 200);
+}
+.micb div{
+    position: absolute;
+    background-color:#616161;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Roboto,arial;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+    white-space: nowrap;
+    top:60px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+
+}
+.searchbox{
+    border-top-left-radius:200px ;
+    border-bottom-left-radius:200px ;
+    border: 1px;
+    border-color: black;
+    padding-left: 15px;
+    height: 40px;
+    flex:1;
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(202, 200, 200);
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+
+.searchbox::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+   
+
+}
+.siconimg{
+    height:25px;
+    width: 25px;
+}
+
+.micimg{
+    height: 23px;
+    width:23px;
+}
+.createb{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 95px;
+    border-radius: 50px;
+    border-width: 0px;
+    background-color: rgb(242, 242, 241);
+}
+.createb:hover{
+    background-color: rgb(220, 220, 220);
+
+}
+.createb:active{
+    background-color: rgb(200, 200, 200);
+}
+
+.createtxt{
+    display: inline-block;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 10px;
+}
+.createimg{
+    align-items: center;
+    height: 17px;
+    width: 17px;
+    margin-left: 5px;
+
+}
+.notib{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    border-width: 0px;
+    margin-left: 10px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.notib:hover{
+    background-color: rgb(220, 220, 220);
+
+}
+.notib:active{
+    background-color: rgb(200, 200, 200);
+}
+
+.npop{
+    position: absolute;
+    background-color:#616161;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Roboto,arial;
+    font-size: 12px;
+    color: white;
+    opacity: 0;
+    white-space: nowrap;
+    top:60px;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    transition: opacity 0.15s;
+   
+}
+
+.notib:hover .npop{
+    opacity: 0.9;
+}
+
+.notin{
+    background-color: rgb(220, 0, 0);
+    color: white;
+    font-family: Roboto,arial;
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 500px;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position:absolute;
+    top:2px;
+    right:0px;
+    border-color:white ;
+    border-style: solid;
+}
+
+.pp{
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border-width: 0px;
+    margin-left: 20px;
+}
+.pp:active{
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgb(0, 106, 255);
+    border-width: 1px;
+}
